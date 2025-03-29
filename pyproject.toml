@@ -1,0 +1,26 @@
+[project]
+name = "html-converter"
+version = "0.1.0"
+description = "HTML Converter for DOCX files with FAQ schema support"
+requires-python = ">=3.11"
+package-mode = false
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "docx>=0.2.4",
+    "pandas>=2.2.3",
+    "pyperclip>=1.9.0",
+    "python-docx>=1.1.2",
+    "streamlit>=1.44.0",
+    "twilio>=9.5.1",
+    "xlsxwriter>=3.2.2",
+]
+
+[tool.poetry]
+name = "html-converter"
+version = "0.1.0"
+description = "HTML Converter for DOCX files with FAQ schema support"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"

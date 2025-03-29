@@ -1,0 +1,22 @@
+# Geliştirme sürecindeki dosyaları dışarda bırak
+app_v1.py
+
+# Attached assets dosyalarını dışarda bırak
+attached_assets/
+
+# Diğer gereksiz dosyaları ve klasörleri dışarda bırak
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+.env
+venv/
+.idea/
+.vscode/
+
+# Replit özel dosyalarını dışarda bırak
+.replit
+replit.nix
+.upm/
+uv.lock
